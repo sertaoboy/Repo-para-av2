@@ -1,12 +1,11 @@
 // arquivo app.js
-// cd nodejs_app
 // npm init -y
 // npm install express
 
 const express = require("express");
 const exp = express();
-const calculadora = ("./calculadora");
 const app = ("./app");
+var x = 1;
 
 
 exp.get("/",function(req,res){
