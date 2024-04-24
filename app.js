@@ -6,6 +6,7 @@ const express = require("express");
 const exp = express();
 const app = ("./app");
 var x = 1;
+var y =2;
 
 
 exp.get("/",function(req,res){
